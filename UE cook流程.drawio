@@ -1,9 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="qScL4ngCN-P9M6NhslI-">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347" y="65" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="MBKAOUJJyQDOFLAruzpG-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="149" as="sourcePoint" />
+            <mxPoint x="397" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-2" value="分析资产与关系(UBT与UAT确定资源集合)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MBKAOUJJyQDOFLAruzpG-1" target="MBKAOUJJyQDOFLAruzpG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="441" as="sourcePoint" />
+            <mxPoint x="437" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MBKAOUJJyQDOFLAruzpG-10" target="MBKAOUJJyQDOFLAruzpG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="344" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-6" value="生成目标平台资产包(如Pak文件或平台特定格式)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="311" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-8" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347" y="392" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MBKAOUJJyQDOFLAruzpG-6" target="MBKAOUJJyQDOFLAruzpG-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407" y="354" as="sourcePoint" />
+            <mxPoint x="407" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBKAOUJJyQDOFLAruzpG-10" value="格式转换与压缩(适配目标硬件和系统)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
