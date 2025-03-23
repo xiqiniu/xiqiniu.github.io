@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="wX6739bgOCSKkOBHNE4S">
-    <mxGraphModel>
+    <mxGraphModel dx="1838" dy="953" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="366" y="22" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-1" target="xc_RgGSRxwEx2enbkJfc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="441" as="sourcePoint" />
+            <mxPoint x="404" y="204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-3" target="xc_RgGSRxwEx2enbkJfc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-3" value="用户执行构建命令(Build.bat)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="97" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-4" target="xc_RgGSRxwEx2enbkJfc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-4" value="Build.bat调用UBT并解析参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-6" target="xc_RgGSRxwEx2enbkJfc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-6" value="UBT读取 *.target.cs与*.build.cs动态生成RulesAssembly" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-8" target="xc_RgGSRxwEx2enbkJfc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-8" value="基于TargetRules定义启动模块，确定模块依赖关系与编译任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="361" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-10" target="xc_RgGSRxwEx2enbkJfc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-10" value="调用UHT生成反射代码存储于Intermediate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="456" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-12" target="xc_RgGSRxwEx2enbkJfc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-12" value="生成模块依赖的具体编译动作，调用平台特定编译器生成二进制文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="539" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-14" target="xc_RgGSRxwEx2enbkJfc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-14" value="链接启动模块与依赖模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-16" value="根据构建平台执行资源复制，程序签名与安装包创建" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="726" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-18" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="366" y="805" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-16" target="xc_RgGSRxwEx2enbkJfc-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="704" as="sourcePoint" />
+            <mxPoint x="426" y="736" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
