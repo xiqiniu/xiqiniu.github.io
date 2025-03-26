@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="3">
   <diagram name="第 1 页" id="_I4pRi6Ugj99aDlZGNes">
     <mxGraphModel dx="1562" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,6 +203,107 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="332" y="416" as="sourcePoint" />
             <mxPoint x="492" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ug39ovqzR-Ysvr8CtVeH" name="第 3 页">
+    <mxGraphModel dx="1838" dy="953" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-1" value="IMediaPlayer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="47" width="244" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-1">
+          <mxGeometry y="26" width="244" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-4" value="&lt;div&gt;+ Close(): void&lt;/div&gt;&lt;div&gt;+ Open(Url: FString, Options: IMediaOptions*): bool&lt;/div&gt;&lt;div&gt;+ GetControls(): IMediaControls&amp;amp;&lt;/div&gt;&lt;div&gt;+ GetTracks(): IMediaTracks&amp;amp;&lt;/div&gt;&lt;div&gt;+ GetSamples(): IMediaSamples&amp;amp;&lt;/div&gt;&lt;div&gt;+ TickFetch(DeltaTime: FTimespan, Timecode: FTimespan): void&lt;/div&gt;&lt;div&gt;+ TickInput(DeltaTime: FTimespan, Timecode: FTimespan): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-1">
+          <mxGeometry y="44" width="244" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-5" value="IMediaControls" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="59" width="194" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-5">
+          <mxGeometry y="26" width="194" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-8" value="&lt;div&gt;+ CanControl(Control: EMediaControl): bool&lt;/div&gt;&lt;div&gt;+ GetDuration(): FTimespan&lt;/div&gt;&lt;div&gt;+ GetState(): EMediaState&lt;/div&gt;&lt;div&gt;+ Seek(Time: FTimespan): bool&lt;/div&gt;&lt;div&gt;+ SetRate(Rate: float): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-5">
+          <mxGeometry y="47" width="194" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-9" value="IMediaTracks" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="549" y="62" width="249" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-9">
+          <mxGeometry y="26" width="249" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-12" value="&lt;div&gt;+ GetNumTracks(TrackType: EMediaTrackType): int32&lt;/div&gt;&lt;div&gt;+ GetSelectedTrack(TrackType: EMediaTrackType): int32&lt;/div&gt;&lt;div&gt;+ SelectTrack(TrackType: EMediaTrackType, TrackIndex: int32): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-9">
+          <mxGeometry y="47" width="249" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-18" value="FOpenHarmonyMediaPlayer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="318" width="358" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-19" value="&lt;div&gt;- avPlayer: OHAvPlayer&lt;/div&gt;&lt;div&gt;- mBitmapRenderer: FOpenHarmonyBitmapRenderer*&lt;/div&gt;&lt;div&gt;- MediaUrl: FString&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-18">
+          <mxGeometry y="26" width="358" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-18">
+          <mxGeometry y="75" width="358" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-21" value="&lt;div&gt;+ Close(): void&lt;/div&gt;&lt;div&gt;+ Open(Url: FString, Options: IMediaOptions*): bool&lt;/div&gt;&lt;div&gt;+ GetControls(): IMediaControls&amp;amp;&lt;/div&gt;&lt;div&gt;+ GetTracks(): IMediaTracks&amp;amp;&lt;/div&gt;&lt;div&gt;+ TickFetch(DeltaTime: FTimespan, Timecode: FTimespan): void&lt;/div&gt;&lt;div&gt;+ TickInput(DeltaTime: FTimespan, Timecode: FTimespan): void&lt;/div&gt;&lt;div&gt;- InitializePlayer(fd: RawFileDescriptor64&amp;amp;): bool&lt;/div&gt;&lt;div&gt;- GetAVPlayerState(): AVPlayerState&lt;/div&gt;&lt;div&gt;- avPlayer: OHAvPlayer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-18">
+          <mxGeometry y="101" width="358" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-26" value="FOpenHarmonyBitmapRenderer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="614" width="361" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-27" value="&lt;div&gt;- mEglDisplay: EGLDisplay&lt;/div&gt;&lt;div&gt;- mEglContext: EGLContext&lt;/div&gt;&lt;div&gt;- mEglSurface: EGLSurface&lt;/div&gt;&lt;div&gt;- mNativeImage: OH_NativeImage*&lt;/div&gt;&lt;div&gt;- mNativeWindow: OHNativeWindow*&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-26">
+          <mxGeometry y="26" width="361" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-26">
+          <mxGeometry y="116" width="361" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-29" value="&lt;div&gt;+ FOpenHarmonyBitmapRenderer(swizzlePixels: bool, isVulkan: bool, player: OHAvPlayer*)&lt;/div&gt;&lt;div&gt;+ initContext(): void&lt;/div&gt;&lt;div&gt;+ saveContext(): void&lt;/div&gt;&lt;div&gt;+ makeCurrent(): void&lt;/div&gt;&lt;div&gt;+ restoreContext(): void&lt;/div&gt;&lt;div&gt;+ initSurfaceTexture(player: OHAvPlayer*): void&lt;/div&gt;&lt;div&gt;+ copyFrameTexture(destTexture: int, destData: unsigned char*): bool&lt;/div&gt;&lt;div&gt;+ updateFrameData(outPixels: void*&amp;amp;, outCount: int64&amp;amp;): bool&lt;/div&gt;&lt;div&gt;+ updateFrameData(destTexture: int): bool&lt;/div&gt;&lt;div&gt;+ setSize(width: int, height: int): void&lt;/div&gt;&lt;div&gt;+ isValid(): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-26">
+          <mxGeometry y="124" width="361" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.449;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_UDmnJjlwrUFfGwZJqq6-18" target="_UDmnJjlwrUFfGwZJqq6-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="329" y="481" as="sourcePoint" />
+            <mxPoint x="145" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-31" value="FOpenHarmonyMediaTextureSample" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="625" width="304" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-32" value="&lt;div&gt;- Buffer: void*&lt;/div&gt;&lt;div&gt;- Dim: FIntPoint&lt;/div&gt;&lt;div&gt;- Time: FTimespan&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-31">
+          <mxGeometry y="26" width="304" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-31">
+          <mxGeometry y="89" width="304" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-34" value="&lt;div&gt;+ Initialize(InDim: FIntPoint, InDuration: FTimespan): bool&lt;/div&gt;&lt;div&gt;+ InitializeBuffer(InBuffer: void*, InTime: FTimespan, Copy: bool): void&lt;/div&gt;&lt;div&gt;+ GetBuffer(): const void*&lt;/div&gt;&lt;div&gt;+ GetDim(): FIntPoint&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_UDmnJjlwrUFfGwZJqq6-31">
+          <mxGeometry y="97" width="304" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.461;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_UDmnJjlwrUFfGwZJqq6-18" target="_UDmnJjlwrUFfGwZJqq6-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="418" y="318" as="sourcePoint" />
+            <mxPoint x="422" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.502;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_UDmnJjlwrUFfGwZJqq6-18" target="_UDmnJjlwrUFfGwZJqq6-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="428" y="328" as="sourcePoint" />
+            <mxPoint x="693" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-37" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.405;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_UDmnJjlwrUFfGwZJqq6-26" target="_UDmnJjlwrUFfGwZJqq6-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="707" y="466" as="sourcePoint" />
+            <mxPoint x="867" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_UDmnJjlwrUFfGwZJqq6-38" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.652;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_UDmnJjlwrUFfGwZJqq6-21" target="_UDmnJjlwrUFfGwZJqq6-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="486" y="564" as="sourcePoint" />
+            <mxPoint x="606" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
