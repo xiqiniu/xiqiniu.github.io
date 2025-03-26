@@ -1,9 +1,121 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="_I4pRi6Ugj99aDlZGNes">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k4bKeRdLo5P64IA71pMl-8" value="FPlatformFileManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="128.5" width="242" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-8">
+          <mxGeometry y="26" width="242" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-11" value="+ Get(): FPlatformFileManager&amp;amp;&lt;br/&gt;+ GetPlatformFile(): IPlatformFile&amp;amp;&lt;br/&gt;+ SetPlatformFile(IPlatformFile&amp;amp; NewTopmostPlatformFile): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-8">
+          <mxGeometry y="34" width="242" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-12" value="FOpenHarmonyPlatformFile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="613" width="402" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-12">
+          <mxGeometry y="26" width="402" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-15" value="- bLoggingError: bool&lt;br/&gt;+ Initialize(IPlatformFile* Inner, const TCHAR* CmdLine): bool&lt;br/&gt;+ FileExists(const TCHAR* Filename): bool&lt;br/&gt;+ OpenRead(const TCHAR* Filename): IFileHandle*&lt;br/&gt;+ OpenWrite(const TCHAR* Filename): IFileHandle*&lt;br/&gt;- NormalizePath(const TCHAR* Path): FString&lt;br/&gt;- PathToOpenHarmonyPaths(FString&amp;amp; LocalPath, FString&amp;amp; AssetPath, const TCHAR* Path, bool AllowLocal): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-12">
+          <mxGeometry y="34" width="402" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-16" value="IOpenHarmonyPlatformFile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="439.5" width="284" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-16">
+          <mxGeometry y="26" width="284" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-19" value="+ GetAssetManager(): NativeResourceManager*&lt;br/&gt;+ IsAsset(const FString&amp;amp; AssetPath): bool&lt;br/&gt;+ FileStartOffset(const TCHAR* Filename): int64&lt;br/&gt;+ FileRootPath(const TCHAR* Filename): FString&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-16">
+          <mxGeometry y="34" width="284" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-20" value="IPhysicalPlatformFile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="299" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-20">
+          <mxGeometry y="26" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-23" value="+ Initialize(IPlatformFile* Inner, const TCHAR* CmdLine): bool&lt;br/&gt;+ GetLowerLevel(): IPlatformFile*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-20">
+          <mxGeometry y="34" width="230" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-24" value="IFileHandle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="324" width="220" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-24">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-27" value="+ Read(uint8* Destination, int64 BytesToRead): bool&lt;br/&gt;+ Write(const uint8* Source, int64 BytesToWrite): bool&lt;br/&gt;+ Seek(int64 NewPosition): bool&lt;br/&gt;+ Tell(): int64&lt;br/&gt;+ Size(): int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-24">
+          <mxGeometry y="34" width="220" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-28" value="FFileHandleOpenHarmony" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="572" width="266" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-29" value="- File: TSharedPtr&amp;lt;FileReference&amp;gt;&lt;br/&gt;- Start: int64&lt;br/&gt;- Length: int64&lt;br/&gt;- CurrentOffset: int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-28">
+          <mxGeometry y="26" width="266" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-28">
+          <mxGeometry y="74" width="266" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-31" value="+ Tell(): int64&lt;br/&gt;+ Seek(int64 NewPosition): bool&lt;br/&gt;+ SeekFromEnd(int64 NewPositionRelativeToEnd): bool&lt;br/&gt;+ Read(uint8* Destination, int64 BytesToRead): bool&lt;br/&gt;+ Write(const uint8* Source, int64 BytesToWrite): bool&lt;br/&gt;+ Size(): int64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-28">
+          <mxGeometry y="82" width="266" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-1" value="IPlatformFile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="99" width="284" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-1">
+          <mxGeometry y="26" width="284" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-4" value="+ Initialize(IPlatformFile* Inner, const TCHAR* CmdLine): bool&lt;br/&gt;+ GetLowerLevel(): IPlatformFile*&lt;br/&gt;+ SetLowerLevel(IPlatformFile* NewLowerLevel): void&lt;br/&gt;+ FileExists(const TCHAR* File): bool&lt;br/&gt;+ OpenRead(const TCHAR* File): IFileHandle*&lt;br/&gt;+ OpenWrite(const TCHAR* File): IFileHandle*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="k4bKeRdLo5P64IA71pMl-1">
+          <mxGeometry y="34" width="284" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-33" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;entryX=0.482;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="k4bKeRdLo5P64IA71pMl-20" target="k4bKeRdLo5P64IA71pMl-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="277" y="290" as="sourcePoint" />
+            <mxPoint x="437" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-35" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;entryX=0.486;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k4bKeRdLo5P64IA71pMl-16" target="k4bKeRdLo5P64IA71pMl-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="626" y="321" as="sourcePoint" />
+            <mxPoint x="627" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-37" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k4bKeRdLo5P64IA71pMl-11" target="k4bKeRdLo5P64IA71pMl-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="356" y="183" as="sourcePoint" />
+            <mxPoint x="514" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-39" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k4bKeRdLo5P64IA71pMl-37">
+          <mxGeometry x="-0.6136" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-42" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k4bKeRdLo5P64IA71pMl-37">
+          <mxGeometry x="0.6068" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-43" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="k4bKeRdLo5P64IA71pMl-28" target="k4bKeRdLo5P64IA71pMl-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="332" y="482" as="sourcePoint" />
+            <mxPoint x="492" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-44" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="k4bKeRdLo5P64IA71pMl-12" target="k4bKeRdLo5P64IA71pMl-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="199" y="478" as="sourcePoint" />
+            <mxPoint x="199" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4bKeRdLo5P64IA71pMl-45" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k4bKeRdLo5P64IA71pMl-15" target="k4bKeRdLo5P64IA71pMl-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="332" y="482" as="sourcePoint" />
+            <mxPoint x="492" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
