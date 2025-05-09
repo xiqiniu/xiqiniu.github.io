@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.1">
   <diagram name="第 1 页" id="jOQz_b7_vfbkGV_zgNSB">
-    <mxGraphModel dx="1556" dy="815" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1011" dy="608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gmD8yFYFnmh3HyaKJykw-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9" y="70" width="810" height="500" as="geometry" />
+          <mxGeometry x="9" y="70" width="814" height="458" as="geometry" />
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-1" value="UE鸿蒙化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="357" y="80" width="96" height="50" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="gmD8yFYFnmh3HyaKJykw-7" value="核心模块适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="320" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-8" value="应用窗口与输入事件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-8" value="应用窗口与输入事件&lt;div&gt;适配&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="320" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-9" value="渲染适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -37,25 +37,25 @@
         <mxCell id="gmD8yFYFnmh3HyaKJykw-10" value="多媒体适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="320" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-11" value="网络通信" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-11" value="网络通信&lt;div&gt;适配&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="320" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-13" value="UBT构建工具链适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="320" width="30" height="190" as="geometry" />
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-13" value="构建工具链适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261" y="320" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-14" value="应用打包与HAP生成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="320" width="30" height="190" as="geometry" />
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-14" value="应&lt;div&gt;用&lt;/div&gt;&lt;div&gt;打&lt;/div&gt;&lt;div&gt;包&lt;/div&gt;&lt;div&gt;与HAP生&lt;/div&gt;&lt;div&gt;成&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="381" y="320" width="29" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-15" value="UPL扩展支持" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="320" width="30" height="190" as="geometry" />
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-15" value="U&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;P&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;L&lt;/span&gt;&lt;div&gt;扩展支持&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="322.5" y="320" width="25" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-17" value="鸿蒙平台项目配置与部署工具" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="320" width="20" height="190" as="geometry" />
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-17" value="新增鸿蒙打包选项" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="320" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-18" value="鸿蒙平台预览与模拟器适配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-18" value="预览&lt;div&gt;功能支持&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="453" y="320" width="20" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="gmD8yFYFnmh3HyaKJykw-19" value="设备检测与连接管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gmD8yFYFnmh3HyaKJykw-19" value="增加鸿蒙平台特定配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="515" y="320" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-20" value="视频播放插件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -65,7 +65,7 @@
           <mxGeometry x="715" y="320" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-22" value="平台特定功能插件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="320" width="20" height="190" as="geometry" />
+          <mxGeometry x="776" y="320" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-29" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -156,10 +156,10 @@
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="515" y="280" as="sourcePoint" />
-            <mxPoint x="580" y="320" as="targetPoint" />
+            <mxPoint x="525" y="280" as="sourcePoint" />
+            <mxPoint x="590" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="300" />
+              <mxPoint x="590" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -186,10 +186,10 @@
         </mxCell>
         <mxCell id="gmD8yFYFnmh3HyaKJykw-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="715" y="280" as="sourcePoint" />
-            <mxPoint x="780" y="320" as="targetPoint" />
+            <mxPoint x="720" y="280" as="sourcePoint" />
+            <mxPoint x="785" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="300" />
+              <mxPoint x="785" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
