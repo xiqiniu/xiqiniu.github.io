@@ -1,73 +1,70 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.2">
   <diagram name="第 1 页" id="aIGVU0f94l3EouMv3h9K">
-    <mxGraphModel dx="1556" dy="815" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="97" y="151" width="658" height="401" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-2" value="工具层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-2" value="工具层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="120.5" y="167" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-3" value="功能层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-3" value="功能层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="241" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-4" value="资源层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-4" value="资源层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="317" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-5" value="核心层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-5" value="核心层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="122" y="392" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-6" value="平台层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-6" value="平台层" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="120.5" y="473" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-7" value="预览功能" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-7" value="预览功能" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="272.5" y="167" width="223" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-8" value="平台配置" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-8" value="平台配置" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="508.5" y="167" width="217" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-9" value="渲染模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-9" value="渲染模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="272" y="241" width="105" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-13" value="音频模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-13" value="音频模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="389" y="241" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-14" value="视频播放" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-14" value="视频播放" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="508" y="241" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-15" value="网络模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-15" value="网络模块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="623" y="241" width="103" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-16" value="指定资产压缩格式" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="272" y="317" width="224" height="60" as="geometry" />
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-16" value="指定资产压缩格式" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="272" y="317" width="453" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-17" value="Cook适配" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="507.5" y="317" width="218" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-20" value="文件管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-20" value="文件管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="271" y="392" width="105" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-21" value="内存管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-21" value="内存管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="388" y="392" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-22" value="线程管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-22" value="线程管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="507" y="392" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-23" value="字符串处理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-23" value="字符串处理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="622" y="392" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-30" value="应用生命周期管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-30" value="应用生命周期管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="272.5" y="473" width="105" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-31" value="输入系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-31" value="输入系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="389.5" y="473" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-32" value="构建系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-32" value="构建系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="508.5" y="473" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lBqLHYc4tci4aW6AEpvV-33" value="平台特定插件" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lBqLHYc4tci4aW6AEpvV-33" value="平台特定插件" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="623.5" y="473" width="106" height="60" as="geometry" />
         </mxCell>
       </root>
