@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.2" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1562" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -52,19 +52,19 @@
         <mxCell id="JP6ADMA8bO0dgKJ-yr4d-24" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;PingFang SC&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(252, 252, 252);&quot;&gt;执行hvigor命令构建hap包&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="339" y="404" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OggCR_GQDZX4P4FwVUH0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JP6ADMA8bO0dgKJ-yr4d-26" target="OggCR_GQDZX4P4FwVUH0-2">
+        <mxCell id="OggCR_GQDZX4P4FwVUH0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JP6ADMA8bO0dgKJ-yr4d-26" target="OggCR_GQDZX4P4FwVUH0-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JP6ADMA8bO0dgKJ-yr4d-26" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;PingFang SC&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(252, 252, 252);&quot;&gt;对hap签名&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="188" y="404" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OggCR_GQDZX4P4FwVUH0-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OggCR_GQDZX4P4FwVUH0-0" target="JP6ADMA8bO0dgKJ-yr4d-12">
+        <mxCell id="OggCR_GQDZX4P4FwVUH0-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OggCR_GQDZX4P4FwVUH0-0" target="JP6ADMA8bO0dgKJ-yr4d-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OggCR_GQDZX4P4FwVUH0-0" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OggCR_GQDZX4P4FwVUH0-0" value="&lt;font&gt;开始&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="56" y="288" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OggCR_GQDZX4P4FwVUH0-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OggCR_GQDZX4P4FwVUH0-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="56" y="404" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
