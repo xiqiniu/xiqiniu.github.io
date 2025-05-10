@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.2">
   <diagram name="第 1 页" id="wX6739bgOCSKkOBHNE4S">
-    <mxGraphModel dx="1562" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,19 +46,19 @@
         <mxCell id="xc_RgGSRxwEx2enbkJfc-14" value="链接启动模块与依赖模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="339" y="404" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QXYXpacQepedKgPS61Mb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xc_RgGSRxwEx2enbkJfc-16" target="QXYXpacQepedKgPS61Mb-2">
+        <mxCell id="QXYXpacQepedKgPS61Mb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xc_RgGSRxwEx2enbkJfc-16" target="QXYXpacQepedKgPS61Mb-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xc_RgGSRxwEx2enbkJfc-16" value="根据构建平台执行资源复制，程序签名与安装包创建" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="xc_RgGSRxwEx2enbkJfc-16" value="生成二进制产物" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="188" y="404" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QXYXpacQepedKgPS61Mb-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QXYXpacQepedKgPS61Mb-1" target="xc_RgGSRxwEx2enbkJfc-3">
+        <mxCell id="QXYXpacQepedKgPS61Mb-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QXYXpacQepedKgPS61Mb-1" target="xc_RgGSRxwEx2enbkJfc-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QXYXpacQepedKgPS61Mb-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="QXYXpacQepedKgPS61Mb-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="53" y="288" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QXYXpacQepedKgPS61Mb-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="QXYXpacQepedKgPS61Mb-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="53" y="404" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
