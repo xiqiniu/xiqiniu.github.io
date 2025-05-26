@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.2" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1213" dy="730" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eRkzWst7_xov0px2-I3F" name="第 2 页">
-    <mxGraphModel dx="1562" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="815" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,7 +90,7 @@
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i0jm8h-iiQ889vvwiugR-27" vertex="1" connectable="0">
           <mxGeometry x="-0.2267" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-20" value="是否有现成编译脚本" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
@@ -105,15 +105,20 @@
         <mxCell id="i0jm8h-iiQ889vvwiugR-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-29" target="i0jm8h-iiQ889vvwiugR-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0jm8h-iiQ889vvwiugR-43" value="CMake" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i0jm8h-iiQ889vvwiugR-42" vertex="1" connectable="0">
+        <mxCell id="i0jm8h-iiQ889vvwiugR-43" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i0jm8h-iiQ889vvwiugR-42" vertex="1" connectable="0">
           <mxGeometry x="-0.1415" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-29" target="i0jm8h-iiQ889vvwiugR-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0jm8h-iiQ889vvwiugR-29" value="判断三方库构建方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="8E4ro72hA6sbJN0dtxTW-2" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i0jm8h-iiQ889vvwiugR-50">
+          <mxGeometry x="-0.1973" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0jm8h-iiQ889vvwiugR-29" value="是否使用CMake编译" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="308" y="410" width="140" height="71" as="geometry" />
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-30" target="i0jm8h-iiQ889vvwiugR-32" edge="1">
@@ -140,7 +145,7 @@
         <mxCell id="i0jm8h-iiQ889vvwiugR-36" value="指定安装路径" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="128" y="673" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttPWPI_tN4r49dGgK3c6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i0jm8h-iiQ889vvwiugR-38" target="ttPWPI_tN4r49dGgK3c6-2">
+        <mxCell id="ttPWPI_tN4r49dGgK3c6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-38" target="ttPWPI_tN4r49dGgK3c6-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-38" value="编译生成.so/.a库文件" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" parent="1" vertex="1">
@@ -155,7 +160,7 @@
         <mxCell id="i0jm8h-iiQ889vvwiugR-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-44" target="i0jm8h-iiQ889vvwiugR-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i0jm8h-iiQ889vvwiugR-44" value="运行SDK中的cmake命令生成Makefile" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="i0jm8h-iiQ889vvwiugR-44" value="执行cmake生成Makefile" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="318" y="609" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-46" target="i0jm8h-iiQ889vvwiugR-38" edge="1">
@@ -169,7 +174,7 @@
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i0jm8h-iiQ889vvwiugR-52" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="1" as="offset" />
+            <mxPoint x="-2" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-49" target="i0jm8h-iiQ889vvwiugR-54" edge="1">
@@ -193,7 +198,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-54" value="修改原始构建文件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="680" y="418" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="415.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i0jm8h-iiQ889vvwiugR-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i0jm8h-iiQ889vvwiugR-58" target="i0jm8h-iiQ889vvwiugR-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -216,19 +221,19 @@
             <mxPoint x="388" y="798" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ttPWPI_tN4r49dGgK3c6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ttPWPI_tN4r49dGgK3c6-1" target="ttPWPI_tN4r49dGgK3c6-5">
+        <mxCell id="ttPWPI_tN4r49dGgK3c6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ttPWPI_tN4r49dGgK3c6-1" target="ttPWPI_tN4r49dGgK3c6-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ttPWPI_tN4r49dGgK3c6-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ttPWPI_tN4r49dGgK3c6-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="328" y="135" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttPWPI_tN4r49dGgK3c6-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ttPWPI_tN4r49dGgK3c6-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="328" y="868" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ttPWPI_tN4r49dGgK3c6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ttPWPI_tN4r49dGgK3c6-5" target="i0jm8h-iiQ889vvwiugR-20">
+        <mxCell id="ttPWPI_tN4r49dGgK3c6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ttPWPI_tN4r49dGgK3c6-5" target="i0jm8h-iiQ889vvwiugR-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ttPWPI_tN4r49dGgK3c6-5" value="获取三方库源码" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ttPWPI_tN4r49dGgK3c6-5" value="获取三方库源码" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="318" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
